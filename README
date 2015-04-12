@@ -1,0 +1,33 @@
+question:A
+	you can compile with Makefile
+	just enter "make" to compile file
+question:B
+    size:
+	n=1000
+		sort(): 0 seconds
+		v1/v2 are different.
+		insertion_sort(): 0.01 seconds
+		v1/v2 are the same.
+
+	n=10000
+		sort(): 0 seconds
+		v1/v2 are different.
+		insertion_sort(): 1.31 seconds
+		v1/v2 are the same.
+
+	n=100000
+		sort(): 0.05 seconds
+		v1/v2 are different.
+		insertion_sort(): 128.19 seconds
+		v1/v2 are the same.
+
+	n=1000000
+		sort(): 0.5 seconds
+		v1/v2 are different.
+		insertion_sort(): 12824 seconds
+		v1/v2 are the same.
+
+
+	sort using quicksort,it takes n*logn 
+	insert_sort using insert sort,it takes n^2
+	because their units are diffetent,we have to divid by"CLOCKS_PER_SEC" to contrast
